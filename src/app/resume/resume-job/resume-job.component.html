@@ -1,0 +1,13 @@
+<div class="job" data-aos="zoom-out-right">
+    <div class="title">
+        <div>
+            <img [src]="jobObj.logoUrl">
+            <span class="position">{{jobObj.position}}</span>
+            <span class="time">{{jobObj.time}}</span>
+        </div>
+        <span class="company">{{jobObj.company}} - {{jobObj.location}}</span>
+    </div>
+    <ul>
+        <li *ngFor="let liDesc of jobObj.desc">{{liDesc}}</li>
+    </ul>
+</div>

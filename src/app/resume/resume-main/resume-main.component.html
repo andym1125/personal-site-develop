@@ -1,16 +1,2 @@
 <h1>Experience</h1>
-<div class="job" data-aos="zoom-out-right">
-    <div class="title">
-        <div>
-            <img src="https://media.glassdoor.com/sqll/333464/wyzant-squarelogo-1472479728930.png">
-            <span class="position">Computer Science Tutor</span>
-            <span class="time">Aug '21 - Present</span>
-        </div>
-        <span class="company">Wyzant - Remote</span>
-    </div>
-    <ul>
-        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate adipisci corporis reiciendis omnis exercitationem laboriosam earum neque quisquam modi aperiam, inventore voluptatem nihil dolore ipsa, animi quam. Nemo, velit soluta.</li>
-        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, tempore ex porro dolorem asperiores totam non suscipit, fuga ducimus similique sapiente omnis sed dolorum blanditiis minus ipsa distinctio itaque. Distinctio.</li>
-        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora nam enim unde excepturi fugit officia in vero minima consequatur explicabo eum accusamus, aspernatur eveniet, molestias temporibus blanditiis amet dolorum corporis?</li>
-    </ul>
-</div>
+<app-resume-job *ngFor="let job of jobs" [jobObj]="job"></app-resume-job>
