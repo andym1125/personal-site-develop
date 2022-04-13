@@ -1,5 +1,10 @@
 @import "/src/styles.scss";
 
+h1
+{
+    color: $c1;
+}
+
 img
 {
     height: 2em;
@@ -26,6 +31,7 @@ li
 {
     display: block;
     padding-left: 2.8em;
+    font-style: italic;
 }
 
 .job
