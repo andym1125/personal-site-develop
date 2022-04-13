@@ -1,0 +1,50 @@
+@import "/src/styles.scss";
+
+img
+{
+    height: 2em;
+    border-radius: 100%;
+}
+
+li
+{
+    padding-top: .75em;
+    margin: 0;
+}
+
+
+
+.title div
+{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.company
+{
+    display: block;
+    padding-left: 2.8em;
+}
+
+.job
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.position
+{
+    padding: 0 .5em;
+
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.time
+{
+    padding-left: 1%;
+    width: fill;
+}
+

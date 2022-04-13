@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+$body-font: 'Calibri', Arial, sans-serif;
+$title-font: 'Segoe UI', Verdana, sans-serif;
+$cwhite: #f6fff8;
+$cblack: #1c0b19;
+$c1: #00a950;
+$c2: #00a9ed;
+$c3: #f9a03f;
+
+body
+{
+    background-color: $cwhite;
+    color: $cblack;
+    font-family: $body-font;
+}
